@@ -1,0 +1,7 @@
+#!/bin/bash
+grep "GenuineIntel" /proc/cpuinfo >/dev/null
+if [ $? -eq 0  ];then
+echo cpu为intel
+else
+echo cpu为amd
+fi

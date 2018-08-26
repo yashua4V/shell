@@ -1,0 +1,14 @@
+#/etc/shells /bin/bash
+#usermod -s
+#useradd -s
+#$USER	当前用户名
+#$PATH	系统命令查找路径
+#$HOME	当前用户家目录
+#$PWD 	当前工作路径
+#$UID 	当前用户UID
+#$HOME 	当前用户家目录
+#$SHELL	当前用户解释器
+#标准输出重定向 >
+#错误输出重定向 >
+#将标准输出重定向到/dev/null  COMMAND >/dev/null
+
